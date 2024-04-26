@@ -1,0 +1,26 @@
+.main{
+    min-height: 71.5vh;
+    background-color: black;
+    font-family: "Varela Round", sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 23px auto;
+    width: 75%;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 34px;
+    background-image: url("https://img.freepik.com/free-vector/moonlight-mountains-with-falling-stars_23-2148265093.jpg?t=st=1714156813~exp=1714160413~hmac=442628cc0f47e3edc551753cafd1465bd08b253612a0a9db2d2ffaba7e829448&w=1060");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.song-list{
+
+}
+
+.song-banner{
+    
+}

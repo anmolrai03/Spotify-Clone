@@ -1,0 +1,26 @@
+.bottom{
+    display: flex;
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    flex-direction: column;
+    row-gap: 15px;
+    box-sizing: border-box;
+}
+
+#myProgressBar{
+    width: 80vw;
+    
+}
+
+.icons{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    align-items: center;
+}

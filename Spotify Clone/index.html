@@ -9,20 +9,45 @@
     <!-- Linking CSS -->
     <link rel="stylesheet" href="Styles/style.css">
     <link rel="stylesheet" href="Styles/nav.css">
-    
+    <link rel="stylesheet" href="Styles/bottom.css">
+    <link rel="stylesheet" href="Styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
     <nav class="navigation">
         <ul>
             <li class="logo">
                 <img
-                    class="brand-logo"
+                    class="brand-logo-image"
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/768px-Spotify_icon.svg.png" alt="Spotify"
                 >
+                Spotify
             </li>
             <li>Home</li>
             <li>About</li>
         </ul>
     </nav>
+
+    <main class="main">
+        <h2>Best of NCS</h2>
+        <section class="song-list">
+            
+        </section>
+        <section class="song-banner"></section>
+    </main>
+
+    <section class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+
+        <div class="icons">
+            <i class="fa fa-step-backward" style="font-size:32px"></i>
+
+            <i class="fa fa-play-circle-o" style="font-size:36px"></i>
+
+            <i class="fa fa-step-forward" style="font-size:32px"></i>
+
+        </div>
+    </section>
 </body>
 </html>

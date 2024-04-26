@@ -8,9 +8,23 @@
     height: 65px;
     background-color: black;
     color: white;
+    align-items: center;
+    /* justify-content: space-around; */
 }
 
-.brand-logo{
-    /* height: 50px; */
+.brand-logo-image{
     width: 44px;
+    padding: 0 8px 0 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    
+}
+
+.navigation ul li {
+    padding: 0 12px;
 }
